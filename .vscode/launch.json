@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/daewon/Documents/GitHub/Data-Structure-C-Language-Exercises/Data Structure/Linked List/NTU Online Judge (APAS)/Linked List Main Frame",
-      "program": "c:/Users/daewon/Documents/GitHub/Data-Structure-C-Language-Exercises/Data Structure/Linked List/NTU Online Judge (APAS)/Linked List Main Frame/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
