@@ -99,10 +99,24 @@ int main()
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-
+#define MAX(a,b)  (a > b? a : b)
 int hasGreatGrandchild(BTNode *node)
 {
 	/* add your code here */
+    if (node ==NULL) return -1;
+    int left= hasGreatGrandchild(node->left)+1;
+    int right= hasGreatGrandchild(node->right)+1;
+
+    // printf("%d %d %d %d\n", node->item, left,right, MAX(left,right));
+    // printf("more than 3? %d\n", MAX(left,right) >= 3);
+    // printf("left more than 3? %d\n", left >= 3);
+    // printf("right more than 3? %d\n", right >= 3);
+    if(MAX(left,right) >= 3)
+    {   
+        // printf("%d %d ",left,right);
+        printf("%d\n",node->item);
+    }
+    return MAX(left,right);
 }
 
 //////////////////////////////////////////////////////////////////////////////////

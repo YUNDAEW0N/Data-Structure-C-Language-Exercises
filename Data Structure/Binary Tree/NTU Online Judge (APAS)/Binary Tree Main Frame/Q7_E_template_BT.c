@@ -99,10 +99,20 @@ int main()
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-
+#define MIN(a,b) a<b?a:b
 int smallestValue(BTNode *node)
 {
+    int min;
 	/* add your code here */
+    if (node == NULL) return 9999999;
+
+    min=MIN(smallestValue(node->left),smallestValue(node->right));
+    if(min>node->item)
+    {
+        min = node->item;
+    }
+
+    return min;
 }
 
 //////////////////////////////////////////////////////////////////////////////////
