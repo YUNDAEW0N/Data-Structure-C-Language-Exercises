@@ -129,8 +129,6 @@ void alternateMergeLinkedList(LinkedList *ll1, LinkedList *ll2)
 			list1size-=1;
 		}
 	}
-
-
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
