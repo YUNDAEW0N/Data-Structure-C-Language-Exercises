@@ -127,7 +127,6 @@ void createStackFromLinkedList(LinkedList *ll, Stack *s)
 void removeEvenValues(Stack *s)
 {
 	/* add your code here */
-	//하란말 없었음
 }
 
 //////////////////////////////////////////////////////////////////////////////////

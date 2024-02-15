@@ -118,7 +118,6 @@ void postOrderIterativeS2(BSTNode *root)
 		temp = pop(&s2);
 		printf("%d ", temp->item);
 	}
-
 }
 
 ///////////////////////////////////////////////////////////////////////////////

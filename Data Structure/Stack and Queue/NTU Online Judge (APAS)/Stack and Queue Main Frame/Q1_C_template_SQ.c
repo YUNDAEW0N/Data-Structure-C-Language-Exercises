@@ -130,7 +130,6 @@ void createQueueFromLinkedList(LinkedList *ll, Queue *q)
 void removeOddValues(Queue *q)
 {
 	/* add your code here */
-	//하란말 없어씀
 }
 
 //////////////////////////////////////////////////////////////////////////////////
